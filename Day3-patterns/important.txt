@@ -1,0 +1,4 @@
+Patterns :  
+    We will solve all pattern problems using "for" loops . 
+
+ 

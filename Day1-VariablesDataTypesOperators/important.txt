@@ -1,0 +1,39 @@
+Our First Program : 
+    output in c++
+
+    cout << "Apna college";
+
+
+How does a code run ?
+    code.cpp(source Code) -> compiler -> code.exe (executable file)
+
+Variables : 
+    Containers to store Data . 
+
+Data types :  (These are primitive Datatypes)
+    1. int -> 4 bytes (32 bits)
+    2. float -> 4 bytes (32 bits)
+    3. char -> 1 byte (8 bits)
+    4. boolean -> 1 byte (8 bits)
+    5. double -> 8 bytes (64 bits)
+
+Type-casting of datatypes : 
+    convert one data type to another datatype . 
+    1. Type - coversion (implicit (compiler automatically does this while executing the program)) (smaller type -> larger type)
+    2. Type - Casting (explicit (as a programmer we have to forcefully do thid if we need it .)) (larger type -> smaller type) For this , there are high chances to get some data lost during the process . 
+
+Input in C++ : 
+    cin >> data;
+
+Operators : 
+    1. Arithmetic : + , - , * , /
+    2. Relational : < , <= , > , >= , == , !=    // returns true or false;
+    3. Logical : NOT (!) , OR (||) , AND (&&)
+
+Unary Operators : 
+    1. Increment Operator : 
+        1. Pre - increment :  ++a
+        2. Post - increment : a++
+    2. Decrement Operator : 
+        1. Pre - decrement : --a
+        2. Post - decrement : a--

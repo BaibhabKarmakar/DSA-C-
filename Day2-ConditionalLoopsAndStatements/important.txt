@@ -1,0 +1,34 @@
+Conditional Statements : 
+    1. if - else 
+    2. if - else-if - else
+
+
+Ternary Statements : 
+    condition ? (true)task1 : (false)task2 ;
+
+Loops : 
+    1. While Loop : 
+    2. For loop : 
+        for(initialization ; ocndition ; updation) {
+            task1...
+            task2....
+            more...
+        }
+    3. Do-while loop : //At least one time will execute whether condition is true or false
+        do {
+            task...
+            task...
+            task...
+        }while();
+
+    4. Nested Loops : (loops inside another loop)
+
+        for(.. ; .. ; ..){
+            for( .. ; .. ; ..) {
+                task....
+                task....
+                task....
+            }
+        }
+
+    
