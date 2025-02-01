@@ -1,0 +1,32 @@
+Function Syntax : 
+    returnType function_name () {
+        task...
+        task...
+        task...
+    }
+
+Function Syntax with Parameters : 
+
+    returnType function_name(p1 , p2 , p3) {
+        task...
+        task...
+        task...
+        return something(depends on its return dataType);
+    }
+
+Redundancy : Unnecessary repeatition in Code . We should not do that . 
+
+Parameters : the variables that are used in function declaration . 
+Arguments : The variables / values that are passed through the function invoke / call . 
+
+Function inside Memory : 
+    2 types of memory are there (specially in C++)
+        1. Stack Memory : later functions will be above the previous function , and newer function will called firstly . (There is a concept of local variable and global variable.)
+            1. Local Variable : These are declared in some block of code or inside a function  , and recognizes only inside that code block or function . 
+            2. Global Variable : These are globally declared means any block of code or any function can use that variable . 
+// Disclaimer : Any code in a function after return statement will not execute . 
+        2. Heap Memory : 
+
+Pass By Value : 
+     Copy of argument will be passed to the function . 
+Pass By Reference : We will study later in the pointer chapter . 
