@@ -65,37 +65,37 @@ using namespace std;
 // }
 
 // Homework 1 : WAF to check if a number is prime or not . 
-bool checkPrime(int n) {
-    for(int i = 2 ; i*i <= n ; i++) {
-        if(n % i == 0) {
-            return false;
-        }
-    }
-    return true;
-}
+// bool checkPrime(int n) {
+//     for(int i = 2 ; i*i <= n ; i++) {
+//         if(n % i == 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
 // Homework 2 : Print all the prime numbers from 1 to n : 
-void printPrimeNumbersUpton(int n) {
-    for(int i = 1 ; i <= n ; i++) {
-        bool result = checkPrime(i);
-        if(result == true) {
-            cout << i << " ";
-        }
-    }
-    cout << endl;
-}
+// void printPrimeNumbersUpton(int n) {
+//     for(int i = 1 ; i <= n ; i++) {
+//         bool result = checkPrime(i);
+//         if(result == true) {
+//             cout << i << " ";
+//         }
+//     }
+//     cout << endl;
+// }
 // Homework 3 : WAF to print nth Fibbonacci : 
-int nthFibbonacci(int n) {
-    if(n == 0) {
-        return 0;
-    }
-    if(n == 1 || n == 2) {
-        return 1;
-    }
-    int result = 0;
-    result = nthFibbonacci(n-1) + nthFibbonacci(n-2);
-    return result;
-}
+// int nthFibbonacci(int n) {
+//     if(n == 0) {
+//         return 0;
+//     }
+//     if(n == 1 || n == 2) {
+//         return 1;
+//     }
+//     int result = 0;
+//     result = nthFibbonacci(n-1) + nthFibbonacci(n-2);
+//     return result;
+// }
 
 int main() {
     // Function call : 
@@ -113,10 +113,10 @@ int main() {
     // int ans = min(num1 , num2);
     // // cout << "The result is : " << ans << endl;
     // cout << "The min number is : " << ans << endl;
-    int n;
-    cout << "Enter the number : ";
-    cin >> n;
-    cout << "Nth fibbonacci is : " << nthFibbonacci(n) << endl;
+    // int n;
+    // cout << "Enter the number : ";
+    // cin >> n;
+    // cout << "Nth fibbonacci is : " << nthFibbonacci(n) << endl;
     // printPrimeNumbersUpton(n);
     // cout << checkPrime(n) << endl;
     // cout << "The sum of the digits of the number is : " << sumOfDigits(n) << endl;
